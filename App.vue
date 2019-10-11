@@ -1,0 +1,244 @@
+<script>
+	export default {
+		onLaunch: function() {
+			console.log('App Launch')
+		},
+		onShow: function() {
+			console.log('App Show')
+		},
+		onHide: function() {
+			console.log('App Hide')
+		}
+	}
+</script>
+
+<style>
+	/*每个页面公共css */
+	.header-brand {
+		display: block;
+		float: none;
+		margin-right: 0;
+		padding: 10px 15px;
+	}
+
+	.logo {
+		height: 75px;
+		width: 230px;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.btn-collapse {
+		margin-bottom: 20px;
+		width: 70px;
+		height: 35px;
+		line-height: 35px;
+	}
+
+	.collapse {
+		border-top: 1px solid #e7e7e7;
+		margin: 0 10px 0;
+		overflow: hidden;
+		transition: height 0.6s;
+	}
+
+	.collapseHide {
+		height: 0px;
+	}
+
+	.collapseShow {
+		height: 170px;
+	}
+
+	.collapse-item {
+		border-radius: 6px;
+		padding: 10px;
+		margin: 7px;
+	}
+
+	.collapse-item-active {
+		background-color: #395ca3;
+		color: #FFFFFF;
+	}
+
+	.pageName {
+		background-color: #395ca3;
+		padding: 40px 0 40px;
+		position: relative;
+		width: 100%;
+		color: #FFFFFF;
+	}
+
+	.pageName>.main-title {
+		font-size: 40px;
+		padding-left: 15px;
+		margin-bottom: 15px;
+	}
+
+	.pageName>.sub-title {
+		padding-left: 15px;
+	}
+
+	.stressIcon {
+		color: #ff0000;
+	}
+
+	.text-underline {
+		text-decoration: underline
+	}
+
+	.hr {
+		margin: 20px 0;
+		border-bottom: 1px solid #EEEEEE;
+	}
+
+	.beforeInput {
+		padding-top: 50px;
+	}
+
+	.main-image {
+		display: block;
+		margin: 0 auto 15px;
+		max-width: 100%;
+		vertical-align: middle;
+		width: 400px;
+		height: 200px;
+	}
+
+	.beforeInput-info {
+		padding: 0 10px;
+	}
+
+	.beforeInput-info-item {
+		margin-bottom: 10px;
+		color: #727272;
+		
+		font-size: 18px;
+		font-weight: 400;
+		letter-spacing: 0.2px;
+		line-height: 25px;
+		margin: 0 0 20px;
+		word-wrap: break-word;
+	}
+
+	.form {
+		padding: 0 10px;
+	}
+
+	.form-title {
+		margin: 30px 0 30px 0;
+		font-size: 28px;
+		font-weight: bold;
+		color: #727272;
+		letter-spacing: 0.2px;
+		line-height: 35px;
+	}
+
+	.form-input-wrap {
+		position: relative;
+	}
+
+	.form-input-icon {
+		position: absolute;
+		left: 8px;
+		top: 10px;
+	}
+
+	.form-input {
+		color: #8f969c;
+		background-color: transparent;
+		border: 1px solid #e9e9e9;
+		display: inline-block;
+		width: 250px;
+		vertical-align: middle;
+		
+		font-weight: 400;
+		height: 28px;
+		padding: 6px 12px;
+		font-size: 18px;
+		line-height: 16px;
+		border-radius: 0px;
+	}
+
+	.form-input-wrap .form-input {
+		padding-left: 38px;
+		width: 224px;
+	}
+
+	.form-input-textarea {
+		vertical-align: sub;
+		height: 100px;
+	}
+
+	.form-label {
+		color: #727272;
+		
+		font-size: 18px;
+		font-weight: 400;
+		letter-spacing: 0.2px;
+		line-height: 25px;
+		margin: 15px 0 15px 0;
+		word-wrap: break-word;
+	}
+
+	.form-label-subtext {
+		display: block;
+		margin-top: 15px;
+		font-weight: bold;
+	}
+
+	.form-label-no {
+		margin-right: 10px;
+	}
+
+	.radio-group {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.radio-group-item {
+		display: flex;
+		color: #8f969c;
+		font-weight: 400;
+		padding: 6px 12px;
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	.form-submit {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.submit-btn {
+		width: 150px;
+		height: 60px;
+		line-height: 60px;
+		background-color: #395ca3;
+		color: #fff;
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.scroll-Y {
+		height: 100vh;
+	}
+
+	.backTop {
+		position: fixed;
+		width: 60px;
+		height: 60px;
+		bottom: 0;
+		right: 0;
+		background-color: #395ca3;
+		color: #fff;
+		text-align: center;
+		line-height: 60px;
+	}
+
+	.a_link {
+		display: inline;
+		color: #395ca3;
+	}
+</style>

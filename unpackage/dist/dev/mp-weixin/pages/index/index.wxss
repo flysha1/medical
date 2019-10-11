@@ -1,0 +1,82 @@
+
+.callout-section {
+	background: no-repeat fixed 0 0 / cover rgba(0, 0, 0, 0.5);
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+.overlay {
+	height: 100%;
+	padding: 40px 0 40px;
+	position: relative;
+	width: 100%;
+}
+.overlay>.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.overlay>.container>.h1 {
+	font-size: 28px;
+	font-weight: 400;
+	color: #ffffff;
+	letter-spacing: 0px;
+	margin: -5px 0 17px;
+	text-align: center;
+}
+.overlay>.container>.p {
+	color: #ffffff;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 0.2px;
+	line-height: 25px;
+	margin: 0;
+	text-align: center;
+}
+.btn-area {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.btn-area>.btn {
+	margin: 10px;
+}
+.footer>.h1 {
+	text-align: center;
+	font-size: 28px;
+	margin: 25px 0;
+}
+.contact-list {
+	padding: 0 20px;
+}
+.contact-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 10px;
+}
+.contact-item-message {
+	margin-left: 20px;
+	font-size: 18px;
+	color: #727272;
+}
+.contact-item-message-label {
+	font-size: 14px;
+}
+.button-text{
+	font-size: 12px;
+}
+.btn{
+	font-size: 20px;
+}
+

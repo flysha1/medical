@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "圣鲲健康",
+  "usingComponents": {
+    "fa-icon": "/components/kilvn-fa-icon/fa-icon"
+  }
+}
