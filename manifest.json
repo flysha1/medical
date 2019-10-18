@@ -1,5 +1,5 @@
 {
-    "name" : "表单测试demo",
+    "name" : "圣鲲健康",
     "appid" : "__UNI__99752DF",
     "description" : "",
     "versionName" : "1.0.0",
@@ -55,9 +55,10 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wxf313ee121cc1009a",
+        "appid" : "wx750b17b3d6acb42d",
         "setting" : {
-            "urlCheck" : false
+            "urlCheck" : false,
+            "postcss" : false
         },
         "usingComponents" : true
     },

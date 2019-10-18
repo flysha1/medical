@@ -44,7 +44,10 @@
 					<view class="contact-item-message">
 						<view class="contact-item-message-label">联系电话</view>
 						<view>
-							+81 92-791-8578
+							中国 +86 021-22817022
+						</view>
+						<view>
+							日本 +81 92-791-8578
 						</view>
 					</view>
 				</view>
